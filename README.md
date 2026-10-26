@@ -1,23 +1,15 @@
-# Nuxt Minimal Starter
+# Pi Reader
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Pi Reader 是一个面向个人本地使用的 Pi 网页工作台。通过浏览器管理本地项目和 Pi 会话，并查看模型回复、工具执行过程与会话历史。
+
+项目目前处于开发阶段，功能正在逐步实现。
 
 ## Setup
 
 Make sure to install dependencies:
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
 ## Development Server
@@ -25,17 +17,13 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
+```
 
-# yarn
-yarn dev
+Run TypeScript checks:
 
-# bun
-bun run dev
+```bash
+pnpm typecheck
 ```
 
 ## Production
@@ -43,33 +31,11 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
